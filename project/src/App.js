@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Button} from 'antd';
 import SharedComp from "shared-lib/src/shared-comp";
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <SharedComp/>
+          <Button>Button From Direct Import</Button>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
