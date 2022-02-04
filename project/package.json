@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "antd": "^4.18.5",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-scripts": "2.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
     "shared-lib": "file:../shared-lib"
   },
   "scripts": {
@@ -26,6 +26,6 @@
   ],
   "devDependencies": {
     "customize-cra": "^0.2.12",
-    "react-app-rewired": "^2.1.0"
+    "react-app-rewired": "^2.1.11"
   }
 }
